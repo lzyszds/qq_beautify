@@ -69,8 +69,8 @@ const styleList = {
   // 侧边栏联系人选中的颜色
   ['#app .across-mode.list-item--selected']: bgColor(themeColor),
   ['#app .across-mode.list-item--selected>div']: bgColor(themeColor),
-  ['.group-box__wrapper']: bgColor('#00000050') + 'backdrop-filter: blur(3px); !important;color:#000 !important'
-
+  ['.group-box__wrapper']: bgColor('#00000050') + 'backdrop-filter: blur(3px); !important;color:#000 !important',
+  ['.more-panel .side-panel.vue-component']:'z-index: 9999 !important;'
 }
 // for (let i in styleList) {
 // if (i != 'editor__main' || i != 'operation') {
